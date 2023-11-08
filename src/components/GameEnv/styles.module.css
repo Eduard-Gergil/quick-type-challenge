@@ -1,0 +1,9 @@
+.game_desk {
+  min-width: 300px;
+  padding: 10px;
+  border: 2px #000 solid;
+  width: fit-content;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 5px 2px 0px 0px rgb(0, 0, 0);
+}
