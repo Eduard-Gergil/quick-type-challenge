@@ -1,0 +1,13 @@
+.gameBoard {
+  position: relative;
+}
+
+.blur {
+  filter: blur(4px);
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

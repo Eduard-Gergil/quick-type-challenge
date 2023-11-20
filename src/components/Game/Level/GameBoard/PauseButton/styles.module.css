@@ -1,0 +1,30 @@
+.pauseButton {
+  /* position: absolute;
+  top: -36px;
+  right: 0; */
+  background: unset;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pauseIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  gap: 4px;
+}
+
+.pauseIcon > * {
+  width: 4px;
+  height: 16px;
+  border-radius: 5px;
+  background: black;
+}

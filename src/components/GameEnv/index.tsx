@@ -6,7 +6,7 @@ import Game from '../Game';
 type PlayerPosition = 'menu' | 'game';
 
 const GameEnv: React.FC = () => {
-  const [playerPosition, setPlayerPosition] = useState<PlayerPosition>('menu');
+  const [playerPosition, setPlayerPosition] = useState<PlayerPosition>('game');
 
   const moveGame = () => {
     setPlayerPosition('game');

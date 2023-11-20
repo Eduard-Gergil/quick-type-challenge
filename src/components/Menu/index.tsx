@@ -5,7 +5,7 @@ const Menu: React.FC<{ moveGame: () => void }> = ({ moveGame }) => {
     <div>
       <div>Player</div>
       <button onClick={moveGame}>Играть</button>
-      <button>Выбрать уровень</button>
+      {/* <button>Выбрать уровень</button> */}
     </div>
   );
 };
